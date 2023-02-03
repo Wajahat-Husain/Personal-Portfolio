@@ -1,7 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
-import { Github, Instragram, LinkedIn,  Twitter } from '../components/AllSvgs'
+import { Github, LinkedIn,  Twitter } from '../components/AllSvgs'
+// Instragram,
 import {DarkTheme} from '../components/Themes'
 import { motion } from 'framer-motion'
 
@@ -56,7 +57,7 @@ const SocialIcons = (props) => {
             <Twitter width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}/>
         </NavLink>
        </motion.div>
-       <motion.div
+       {/* <motion.div
        initial={{transform:"scale(0)"}}
        animate={{scale:[0,1,1.5,1]}}
        transition={{type:'spring', duration:1, delay:1.6}}
@@ -64,7 +65,7 @@ const SocialIcons = (props) => {
         <NavLink style={{color:'inherit'}}  target="_blank" to={{pathname:"HTTP LINK"}}>
             <Instragram width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}/>
         </NavLink>
-       </motion.div>
+       </motion.div> */}
        <Line color={props.theme}
        
        initial={{

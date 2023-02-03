@@ -17,11 +17,11 @@ export const Blogs = [
     },
     {
         id:3,
-        name:"13 Projects You Can Do to Become a Web3 and Blockchain Master - Beginner to Expert",
-        tags:["Blockchain","Web3"],
-        date:"23 Jun, 2022",
-        imgSrc:"https://blog.suhailkakar.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655974264630%2F9UZNpvvfM.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://blog.suhailkakar.com/13-projects-you-can-do-to-become-a-web3-and-blockchain-master-beginner-to-expert"
+        name:"Learn Blockchain by Building One",
+        tags:["Blockchain","Javascript"],
+        date:"7 feb, 2022",
+        imgSrc:"https://miro.medium.com/v2/resize:fit:720/format:webp/1*dGEwUHQvBY3bAddEyczVEw.png",
+        link:"https://levelup.gitconnected.com/learn-blockchain-by-building-it-f2f8ccc54892"
     },
     {
         id:4,

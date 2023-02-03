@@ -18,11 +18,7 @@ display:flex;
 justify-content:space-evenly;
 align-items:center;
 `
-const LogoCointainer=styled.h4`
-// position:fixed;
-margin-left:-0.85rem;
-margin-top:-35.3rem;
-`
+
 const Main=styled.div`
 border:2px solid ${props=>props.theme.text};
 color:${props=>props.theme.text};
@@ -85,9 +81,7 @@ const MySkillsPage = () => {
   return (
     <ThemeProvider theme={lightTheme}>
     <Box>
-    <LogoCointainer>
-        <LogoComponent theme='light'/>
-    </LogoCointainer>
+    <LogoComponent theme='light'/>
     <PowerButton/>
     <SocialIcons theme='light'/>
     <ParticleComponent theme='light'/>

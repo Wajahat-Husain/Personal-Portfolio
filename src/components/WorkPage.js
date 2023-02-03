@@ -21,11 +21,7 @@ position:relative;
 display:flex;
 align-item:center;
 `
-const LogoCointainer=styled.h4`
-position:fixed;
-margin-left:2rem;
-margin-top:2rem;
-`
+
 const Main = styled(motion.ul)`
 position:fixed;
 top:12rem;
@@ -78,9 +74,7 @@ const  WorkPage = () => {
   return (
     <ThemeProvider theme={DarkTheme}>
     <Box>
-       <LogoCointainer >
-          <LogoComponent theme='dark'/>
-       </LogoCointainer>
+       <LogoComponent theme='dark'/>
        <SocialIcons theme='dark'/>
        <PowerButton />
        {/* <ParticleComponent theme='dark'/> */}

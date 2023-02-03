@@ -50,7 +50,7 @@ top:50%;
 left:calc(1rem + 2vw);
 transform:translate(-50%, -50%) rotate(-90deg) ;
 text-decoration:none;
-z-index=1;
+z-index:2;
 `
 const BottomBar=styled.div`
 position: absolute;
@@ -65,9 +65,10 @@ justify-content: space-evenly;
 `
 
 const ABOUT=styled(NavLink)`
-color: ${props=>props.click? props.theme.body : props.theme.text};
+color:${props=>props.click? props.theme.body : props.theme.text};
 text-decoration:none;
-z-index=1;
+z-index:2;
+position:relative;
 `
 const SKILLS=styled(NavLink)`
 color:${props=>props.theme.text};

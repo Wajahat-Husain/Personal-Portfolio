@@ -27,11 +27,6 @@ height:auto;
 position:relative;
 padding-bottom:5rem;
 `
-const LogoCointainer=styled.h4`
-position:fixed;
-margin-left:2rem;
-margin-top:2rem;
-`
 
 const Center=styled.div`
 display:flex;
@@ -83,9 +78,7 @@ setNumbers(parseInt(num));
     }}
     >
        <Container>
-          <LogoCointainer>
-             <LogoComponent />
-          </LogoCointainer>
+          <LogoComponent />
           <PowerButton style={{'margin-left':'10rem'}} />
           <SocialIcons/>
           <AnchorComponent numbers={numbers}/>
