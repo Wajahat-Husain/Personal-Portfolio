@@ -20,6 +20,7 @@ z-index:3;
 &>*:not(:last-child){
     margin:0.5rem 0;
 }
+
 `
 const Line=styled(motion.span)`
 width:2px;
@@ -77,7 +78,6 @@ const SocialIcons = (props) => {
        transition={{
         type:'spring', duration:1, delay:0.8
        }}
-
        />
     </Icons>
   )
