@@ -19,7 +19,7 @@ background-color:${props=>props.theme.body};
 height:400vh;
 position:relative;
 display:flex;
-align-item:center;
+align-items: center;
 `
 
 const Main = styled(motion.ul)`
@@ -28,8 +28,7 @@ top:12rem;
 left:calc(10rem + 15vw);
 height:40vh;
 display:flex;
-
-color:white
+color:white;
 `
 
 const Rotate=styled.span`
@@ -95,7 +94,4 @@ const  WorkPage = () => {
 }
 
 export default WorkPage
-
-
-
 

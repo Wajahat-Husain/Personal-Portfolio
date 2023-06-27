@@ -30,7 +30,7 @@ position:absolute;
 top:2rem;
 right:calc(1rem + 2vw);
 text-decoration:none;
-z-index=1;
+z-index:1;
 `
 
 const BLOG=styled(NavLink)`
@@ -40,7 +40,7 @@ top:50%;
 right:calc(1rem + 2vw);
 transform:rotate(90deg) translate(-50%, -50%);
 text-decoration:none;
-z-index=1;
+z-index:1;
 
 `
 
@@ -74,7 +74,7 @@ position:relative;
 const SKILLS=styled(NavLink)`
 color:${props=>props.theme.text};
 text-decoration:none;
-z-index=1;
+z-index:1;
 `
 
 const rotate=keyframes`
@@ -108,7 +108,7 @@ transition:all 1s ease;
 
 &>:last-child{
   display:${props=>props.click? 'none' :'inline-block'};
-  paddding-top:1rem;
+  padding-top:1rem;
 }
 `
 
